@@ -1,0 +1,24 @@
+.user-bookings-container2 {
+  padding: 20px;
+}
+
+.booking-cards2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.booking-card2 {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.booking-card2 p {
+  margin: 5px 0;
+}
+
+.booking-card2 p strong {
+  font-weight: bold;
+}

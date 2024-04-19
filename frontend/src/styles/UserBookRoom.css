@@ -1,0 +1,82 @@
+.user-booking-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-section {
+  display: flex;
+  vertical-align:center;
+  align-items: center;
+  margin-bottom: 20px;
+  border : 1px solid grey;
+  padding :3%;
+  margin:2%;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.search-form {
+  display: flex;
+  gap: 50px; /* Adjust spacing between input fields */
+}
+
+.room-list {
+}
+
+.room-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.room-card {
+  position: relative;
+  flex: 0 1 calc(25% - 20px);
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.room-card.best-match::before {
+  content: "Best Match";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+
+.room-card.best-match {
+  border: 3px solid #007bff;
+}
+
+.room-card h3 {
+  margin-top: 0;
+}
+
+.room-card p {
+  margin: 10px 0;
+}
+
+.room-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.room-card button:hover {
+  background-color: #0056b3;
+}
+
+
+.link-back {
+  margin-top: 20px;
+  text-align: center;
+}

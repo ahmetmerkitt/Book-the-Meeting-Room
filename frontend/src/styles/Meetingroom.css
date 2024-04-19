@@ -1,0 +1,92 @@
+
+.modal-meetingroom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content-meetingroom {
+    position: relative;
+}
+
+.close-btn-meetingroom {
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+.close-btn-meetingroom:hover {
+    color: #555;
+}
+
+.modal-meetingroom h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.modal-meetingroom input {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.modal-meetingroom select {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+}
+
+.modal-meetingroom select option {
+    padding: 8px;
+    background-color: #fff;
+    color: #333;
+}
+
+
+
+.add-meetingroom-btn {
+
+    padding: 10px 20px;
+    margin-bottom:10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.listmeeth2 {
+display:inline-block;
+margin-right:60%;
+}
+
+
+
+
+

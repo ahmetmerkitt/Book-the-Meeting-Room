@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #343a40;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand-text {
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+.navbar-nav {
+  flex-grow: 1;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}

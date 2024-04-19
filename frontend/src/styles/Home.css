@@ -1,0 +1,20 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-buttons {
+    text-align: center;
+}
+
+.login-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
